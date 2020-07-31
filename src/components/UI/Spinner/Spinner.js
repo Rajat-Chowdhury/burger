@@ -1,9 +1,19 @@
-import React from 'react';
-
+import React, { Component } from 'react';
 import classes from './Spinner.css';
+import Aux from '../../../hoc/Auxiliary/Auxiliary';
 
-const spinner = () => (
-    <div className={classes.Loader}>Loading...</div>
-);
 
-export default spinner;
+
+class Spinner extends Component{
+    render(){
+        return(
+            <Aux> 
+                 <div className={classes.Loader}>Loading...</div>
+            </Aux>
+            );
+    }
+
+}
+
+   
+export default Spinner;
