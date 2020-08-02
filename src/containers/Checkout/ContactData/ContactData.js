@@ -48,8 +48,8 @@ class ContactData extends Component {
                 value: '',
                 validation: {
                     required: true,
-                    minLength: 5,
-                    maxLength: 5,
+                    minLength: 6,
+                    maxLength: 8,
                     isNumeric: true
                 },
                 valid: false,
